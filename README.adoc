@@ -1,0 +1,322 @@
+= HTML Tables
+:idprefix:
+:idseparator: -
+:sectanchors:
+:sectlinks:
+:toclevels: 1
+
+== Current appearance
+
+|===
+| Namespace | Idiomatic Alias
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+== Improvement plans
+
+The followings apply to all cases.
+
+* Set header row
+* Use monospace font for table data
+
+=== Width and Alignment
+
+[caption="", cols="m,m"]
+.Unspecified (full-width)
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="", options="autowidth", cols="m,m"]
+.Autowidth & Left align
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="", options="autowidth", role=center, cols="m,m"]
+.Autowidth & Center align
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+=== Borders
+
+I will provide examples only for tables with automatic width here.
+
+[caption="Option ", options="autowidth", cols="m,m", frame=all, grid=all]
+.1. frame=all, grid=all
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=all, grid=rows]
+.2. frame=all, grid=rows
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=all, grid=cols]
+.3. frame=all, grid=cols
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=all, grid=none]
+.4. frame=all, grid=none
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=ends, grid=all]
+.5. frame=ends, grid=all
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=ends, grid=rows]
+.6. frame=ends, grid=rows
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=ends, grid=cols]
+.7. frame=ends, grid=cols
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=ends, grid=none]
+.8. frame=ends, grid=none
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=none, grid=all]
+.9. frame=none, grid=all
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=none, grid=rows]
+.10. frame=none, grid=rows
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=none, grid=cols]
+.11. frame=none, grid=cols
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
+
+[caption="Option ", options="autowidth", cols="m,m", frame=none, grid=none]
+.12. frame=none, grid=none
+|===
+| Namespace | Idiomatic Alias
+
+| cheshire.core
+| json
+| clj-yaml.core
+| yaml
+| clj-http.client
+| http
+| hugsql.core
+| sql
+| java-time
+| time
+| next.jdbc
+| jdbc
+|===
