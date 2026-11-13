@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: |
           mkdir -p _build/html
-          bundle exec asciidoctor README.adoc -o _build/html/index.html
+          bundle exec asciidoctor -a toc="left" -a toclevels=2 README.adoc -o _build/html/index.html
 
       - name: Upload
         uses: actions/upload-pages-artifact@v5
